@@ -1,0 +1,19 @@
+{
+  "name": "api-rest-node-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsnd --transpille-only --respawn --ignore-watch node-modules src/server.ts"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "@types/nodemailer": "^6.4.15",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.5.2"
+  }
+}
